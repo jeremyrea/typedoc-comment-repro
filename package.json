@@ -1,0 +1,24 @@
+{
+  "name": "typedoc-comment-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "./node_modules/typedoc/bin/typedoc --out doc-output --mode file --json doc-output.json src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyrea/typedoc-comment-repro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremyrea/typedoc-comment-repro/issues"
+  },
+  "homepage": "https://github.com/jeremyrea/typedoc-comment-repro#readme",
+  "devDependencies": {
+    "typedoc": "^0.15.6",
+    "typescript": "^3.7.4"
+  }
+}
